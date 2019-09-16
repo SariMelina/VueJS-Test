@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Primera aplicación de Vue.js</title>
+        <script src="https://unpkg.com/vue@2.6.10/dist/vue.js"></script>
+    </head>
+    <body>
+        <div class="vue">
+            <h3>{{mensaje}}</h3>
+            <button v-on:click="mensaje= 'ESTE ES EL NUEVO MENSAJE'">Cambiar Mensaje</button>
+            <button v-on:click="destruir">Destruir instancia</button>
+        </div>
+        <script src="vue.js"></script> 
+    </body>
+</html>
